@@ -43,6 +43,8 @@ cd /usr/bin
 # for debugging purposes, check which tiles are available for cfops in the image
 cfops list-tiles
 
+cfops version
+
 # TBD: Force all user sessions to finish on Ops Manager to avoid cfops failure
 # issue DELETE request to /api/v0/sessions
 # http://opsman-dev-api-docs.cfapps.io/#the-basics
